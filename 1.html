@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+</head>
+<body>
+	<div id="div1" style="width:500px; overflow:scroll;"  onscroll="document.getElementById('div2').scrollLeft = this.scrollLeft;">
+
+	<div style="width:800px; height:50px;"></div>
+
+	</div>
+
+
+
+	<div id="div2" style="width:500px; overflow:scroll;"  onscroll="document.getElementById('div1').scrollLeft = this.scrollLeft;">
+
+	<div style="width:800px; height:50px;"></div>
+
+	</div>
+
+
+</body>
+</html>
